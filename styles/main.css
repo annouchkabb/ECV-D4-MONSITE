@@ -1,0 +1,91 @@
+body {
+  background-color: ##F18E90;
+  color: #B1AAAA;
+  margin : 0;
+  font-family: 'Varela Round', sans-serif;
+}
+
+section {
+  max-width: 45em;
+  margin : 0 auto;
+  padding-top: 100px;
+
+}
+ header {
+   background-color: #F18E90;
+   color : #ffffff;
+   padding : 2em;
+   position: relative;
+   font-family: 'Abril Fatface';
+
+ }
+
+ header::after {
+   content: " ";
+   display: block;
+   width: 200px;
+   height: 200px;
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%)translateY(-50%)rotate(45deg);
+   background-color: #F18E90;
+
+ }
+
+.nastyadvert {
+  background-image: url(glacier1.jpg);
+  min-height: 80vh;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Nosifer'
+
+}
+
+.nastyadvert h1 {
+  font-family: 'Nosifer', cursive;
+  color: pink;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+ }
+
+.nastyadvert p {
+  font-size: 2em;
+  font-family: "nosifer", cursive;
+  text-align: center;
+}
+
+.nastyadvert .container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%)translateX(50%);
+
+  }
+
+#conteneur  {
+      display: flex;
+      flex-wrap: wrap;
+      flex: 1;
+
+  }
+
+footer {
+  background-color: #F18E90;
+  color : #ffffff;
+  padding : 2em;
+  font-family: cursive;
+
+
+}
+
+.linklist {
+  list-style-type: none;
+
+}
+
+.linklist li {
+  margin: 2em;
+}
+
+.linklist a {
+  color : #fff;
+}
