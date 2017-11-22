@@ -2,7 +2,8 @@ body {
   background-color: ##F18E90;
   color: #B1AAAA;
   margin : 0;
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'Helvetica', sans-serif;
+  align-content: center;
 }
 
 section {
@@ -16,7 +17,7 @@ section {
    color : #ffffff;
    padding : 2em;
    position: relative;
-   font-family: 'Abril Fatface';
+   font-family: 'Helvetica';
 
  }
 
@@ -33,24 +34,24 @@ section {
  }
 
 .nastyadvert {
-  background-image: url(glacier1.jpg);
+  background-image: url(bordeaux1.jpg);
   min-height: 80vh;
   background-size: cover;
   background-attachment: fixed;
-  font-family: 'Nosifer'
+  font-family: 'Helvetica'
 
 }
 
 .nastyadvert h1 {
-  font-family: 'Nosifer', cursive;
+  font-family: 'Helvetica', cursive;
   color: pink;
   text-align: center;
-  text-shadow: 1px 1px 2px black;
+
  }
 
 .nastyadvert p {
   font-size: 2em;
-  font-family: "nosifer", cursive;
+  font-family: "Helvetica";
   text-align: center;
 }
 
@@ -61,11 +62,23 @@ section {
 
   }
 
-#conteneur  {
+.mywork ul {
+      list-style-type: none;
       display: flex;
       flex-wrap: wrap;
-      flex: 1;
+      justify-content: space-between;
+      margin-right: 2em;
 
+  }
+
+  .mywork li {
+    border: 0px solid;
+    max-width: 20%;
+    margin: 2em;
+  }
+
+  .mywork img{
+    width: 100%;
   }
 
 footer {
